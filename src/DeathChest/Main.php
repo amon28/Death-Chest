@@ -52,6 +52,7 @@ class Main extends PluginBase implements Listener{
 	}
     
     public function onDeath(PlayerDeathEvent $ev){
+     $ev->setDrops([]);
      $player = $ev->getPlayer();
      $this->chest($player);
 }
