@@ -1,0 +1,9 @@
+name: DeathChest
+version: 1.0
+main: DeathChest\Main
+api: [3.0.0]
+author: Amon
+
+commands:
+ dchest:
+  description: turns on/off plugin
